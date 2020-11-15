@@ -8,16 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		A2920C58255AB54200E6B6FB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2920C57255AB54200E6B6FB /* main.swift */; };
+		A2920C67255AC50C00E6B6FB /* main.swift in Copy Files (1 item) */ = {isa = PBXBuildFile; fileRef = A2920C57255AB54200E6B6FB /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A2920C52255AB54200E6B6FB /* CopyFiles */ = {
+		A2920C52255AB54200E6B6FB /* Copy Files (1 item) */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
+				A2920C67255AC50C00E6B6FB /* main.swift in Copy Files (1 item) */,
 			);
+			name = "Copy Files (1 item)";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -71,7 +74,7 @@
 			buildPhases = (
 				A2920C50255AB54200E6B6FB /* Sources */,
 				A2920C51255AB54200E6B6FB /* Frameworks */,
-				A2920C52255AB54200E6B6FB /* CopyFiles */,
+				A2920C52255AB54200E6B6FB /* Copy Files (1 item) */,
 			);
 			buildRules = (
 			);
@@ -89,7 +92,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					A2920C53255AB54200E6B6FB = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -244,6 +247,7 @@
 		A2920C5C255AB54200E6B6FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -253,6 +257,7 @@
 		A2920C5D255AB54200E6B6FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
