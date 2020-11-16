@@ -273,7 +273,7 @@ func displayResultLowestToHighest(){
         return first.value[7] < second.value[7]
     }
     //display results
-    print("  Club                ","MP"," W","  D","  L"," GF"," GA"," GD","PTS", "       Last 5")
+    print("  Club                ","  MP"," W","  D","  L"," GF"," GA"," GD","PTS", "       Last 5")
     var rankCounter = 1
     for (keys,values) in sortedResultBoard{
         var teamPrinted = false
